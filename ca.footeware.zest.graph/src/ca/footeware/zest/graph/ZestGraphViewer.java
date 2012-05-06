@@ -40,7 +40,7 @@ public class ZestGraphViewer
 			{
 				// if of format "node1 to node2" return "node1"
 				String edgeName = (String) rel;
-				System.err.println("\n getSource: edgeName=" + edgeName);
+				System.err.println("\ngetSource: edgeName=" + edgeName);
 				if (edgeName.contains(edgeConjunction))
 				{
 					String nodeName = edgeName.substring(0, edgeName.indexOf(edgeConjunction));
